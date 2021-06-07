@@ -43,6 +43,11 @@ should be pressed again to restart the backup.*
 
 *Note: next_execution should be generated 28 days after the last successful execution date. If the backupfinishes successfully on 05/01/2021, the next_execution value should be 05/28/2021.*
 
+#### Design
+![Unset](public/Unset.png?raw=true "Unset")
+![Running](public/Status_running.png?raw=true "Running")
+![Finished](public/Status_finished.png?raw=true "Finished")
+
 ## Available Scripts
 
 In the project directory, you can run:
