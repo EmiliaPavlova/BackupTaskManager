@@ -1,0 +1,19 @@
+.wrapper {
+  width: 600px;
+  margin: 50px auto;
+  border: 1px solid #C2C2C2;
+  border-radius: 20px;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.separator {
+  margin: 0 50px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+

@@ -1,0 +1,11 @@
+.dataRow {
+  padding: 20px 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #FBFBFB;
+  color: #9B9B9B;
+}
+
+.active{
+  color: #000000;
+}

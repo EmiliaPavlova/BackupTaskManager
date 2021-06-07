@@ -1,0 +1,43 @@
+.toggleContainer {
+  position: relative;
+  width: 70px;
+  height: 36px;
+  padding: 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.dialogButton {
+  position: absolute;
+  top: 5px;
+  left: 38px;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border-radius: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.none, .paused {
+  background-color: #C4C4C4;
+}
+
+.none .dialogButton {
+  left: 5px;
+}
+
+.finished, .aborted {
+  background-color: #01C8CA;
+}
+
+.running {
+  background-color: #ABE8E8;
+}

@@ -1,0 +1,19 @@
+.header {
+  padding: 50px;
+}
+
+.headerFlexRow {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
